@@ -1,0 +1,11 @@
+# The backend image only needs server sources, never Flutter builds or secrets.
+**
+!backend/
+!backend/**
+backend/main
+backend/bin/
+backend/.git/
+**/.env
+**/.env.*
+**/*.log
+**/.DS_Store
